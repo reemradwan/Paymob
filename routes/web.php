@@ -13,5 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/child/{student}/track',[ParentController::class,"track"])->name("parent.buses.track");
 
